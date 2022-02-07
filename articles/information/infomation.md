@@ -11,6 +11,7 @@ disableDisclaimer: false
 
 この度、GitHub Blog にてサポートブログを開設いたしました！
 本ブログでは、日本マイクロソフト Dynamics ERP サポート チームに所属する社員より、皆様のお役に立てる情報の発信に努めてまいりますので、ぜひご参照いただけますと幸いです。
+<!-- more -->
 
 なお、これまで Microsoft Forum に掲載していた記事は、随時本 GitHub Blog の Archive に移行を進めてまいります。
 ※ForumのJapan Dynamics ERP support Blogは以下になります。
