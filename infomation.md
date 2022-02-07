@@ -14,12 +14,12 @@ disableDisclaimer: false
 <!-- more -->
 
 なお、これまで Microsoft Forum に掲載していた記事は、随時本 GitHub Blog の Archive に移行を進めてまいります。
->※ForumのJapan Dynamics ERP support Blogは以下になります。
->https://social.msdn.microsoft.com/Forums/ja-jp/home?forum=DERPSupport
->製品の特性上、情報が古くなってしまった記事につきましては移行しない場合がございますため、あらかじめご了承ください。
+※ForumのJapan Dynamics ERP support Blogは以下になります。
+https://social.msdn.microsoft.com/Forums/ja-jp/home?forum=DERPSupport
+製品の特性上、情報が古くなってしまった記事につきましては移行しない場合がございますため、あらかじめご了承ください。
 
->本 Blog が、皆様のお役にたてれば幸いです。
->今後ともよろしくお願いたします。
+本 Blog が、皆様のお役にたてれば幸いです。
+今後ともよろしくお願いたします。
 
 <!-- 区切り線 -->
 
