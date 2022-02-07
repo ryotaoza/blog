@@ -3,30 +3,41 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Title (display)
-title: Japan CSS Support Example Blog
+title: Japan Dynamics ERP Support Blog
 # Sub Title (display)
-subtitle: Japan CSS Support Example Blog
+subtitle: 日本マイクロソフトの Dynamics ERP テクニカルサポートチームより、情報をお届けします！
 # Description
-description: Japan CSS Support Example Blog
+description: 日本マイクロソフトの Dynamics ERP テクニカルサポートチームより、情報をお届けします！
 
 # Keywords
 keywords:
-  - Information
-  - Example
+  - Dynamics
+  - Dynamics 365 for Finance and Operations
+  - Dynamics 365 Finance&Operations
+  - Dynamics 365F&O
+  - Dynamics 365fo
+  - Dynamics ERP
 
-author: CSS Japan
+author: Dynamics ERP Support Japan
 
 # Tag (hexo helper)
 root_tag_generator:
   root_tag_names:
-    - Information
+  - Dynamics
+  - Dynamics 365 for Finance and Operations
+  - Dynamics 365 Finance&Operations
+  - Dynamics 365F&O
+  - Dynamics 365fo
+  - Dynamics ERP
+  - 情報採取
   sub_tag_limit: 20
+  sub_tag_sort: 'name'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://cssjpn.github.io/blog/
+url: https://jpdynamicserp.github.io/blog/
 github:
-  url: https://github.com/cssjpn/blog-example/
+  url: https://github.com/jpdynamicserp/
   posts_dir: articles
   default_branch: main
 
@@ -35,13 +46,13 @@ skip_render:
   # Bing Webmaster
   - 'BingSiteAuth.xml'
   # Search Console
-  # - 'googlec1234567890abcde.html'
+  - 'googlec1234567890abcde.html'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:cssjpn/blog-example.git
+  repo: git@github.com:jpdynamicserp/blog.git 
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} [skip ci]"
 
