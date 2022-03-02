@@ -13,7 +13,7 @@ disableDisclaimer: false
 この記事では、Dynamics 365 Finance and Operationsにて、ユーザオプションの設定を変更せずに表示言語を変更する方法を紹介します。
 
 # 手順
-1. 環境のURLの最後に `&lng=表示したい言語` を追記する
+1. 環境のURLの最後に `&lng=表示したい言語` を追記する<br>
 ` (例) https://...operations.dynamics.com/?cmp=USMF&lng=ja`
 2. ページをリフレッシュする（F5を押下）
 
