@@ -6,7 +6,7 @@
   <link href="https://jpdynamicserp.github.io/blog/atom.xml" rel="self"/>
   
   <link href="https://jpdynamicserp.github.io/blog/"/>
-  <updated>2022-03-07T14:28:45.548Z</updated>
+  <updated>2022-03-07T14:29:41.304Z</updated>
   <id>https://jpdynamicserp.github.io/blog/</id>
   
   <author>
@@ -17,11 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>D365FOのアップデートに関する注意事項</title>
+    <link href="https://jpdynamicserp.github.io/blog/information/D365FO%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85/"/>
+    <id>https://jpdynamicserp.github.io/blog/information/D365FO%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85/</id>
+    <published>2022-03-03T15:00:00.000Z</published>
+    <updated>2022-03-07T14:29:41.304Z</updated>
+    
+    <content type="html"><![CDATA[<p>こんにちは、Dynamics ERP サポートチームの今岡です。<br>この記事では、Dynamics 365 Finance and Operations (D365FO) のアップデートに関する注意事項を紹介します。  </p><span id="more"></span><p>D365FOのサービスアップデートにつきまして、以下のドキュメントに記載されていますように、<br>最大3つまでの更新を続けて一時停止することができます。  </p><p><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/one-version#can-the-update-be-delayed-what-is-the-policy">更新を遅らせることができますか、ポリシーとは何ですか。</a></p><p>４回以上の一時停止は、<strong>いかなる理由でも実施できません</strong>のでご注意ください。<br>本番環境は、サービス終了する前にアップデートして頂くことで、常にサポートされている環境を維持頂き<br>何らかの理由で、サービス終了までにアップデートできなかった場合も、3つの一時停止の範囲内で最新のサービスアップデートをご適用ください。  </p><p>ただし、４回目のアップデート期日前に、本番環境に手動で最新サービスアップデートを適用した場合は、LCSから一時停止が可能となります。<br>遅くとも自動適用予定日の１週間前には手動でご適用ください。  </p><h1 id="「サービス終了」の期日"><a href="#「サービス終了」の期日" class="headerlink" title="「サービス終了」の期日"></a>「サービス終了」の期日</h1><p>各サービスアップデートの「サービス終了」期日は以下のドキュメントでご確認頂けます。<br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases">サービス更新の可用性</a></p><h1 id="サービス終了前にアップデートを適用するメリット"><a href="#サービス終了前にアップデートを適用するメリット" class="headerlink" title="サービス終了前にアップデートを適用するメリット"></a>サービス終了前にアップデートを適用するメリット</h1><p>サービス終了前にアップデート頂くことで、常にサポートされている環境を維持でき、以下のようなメリットもございます。  </p><ol><li>問題発生時に調査及びトラブルシューティングを依頼可能です。  </li><li>Criticalな問題が発見された場合、新しいサービスアップデートを適用することなく、Quality Updateから修正を入手可能です。  </li></ol><h1 id="「サービス終了」した環境の制約"><a href="#「サービス終了」した環境の制約" class="headerlink" title="「サービス終了」した環境の制約"></a>「サービス終了」した環境の制約</h1><p>「サービス終了」した環境では多くの制約が発生しますのでご注意ください。  </p><ol><li>Microsoft は、サービスの終了に達しているバージョンに対して、修正プログラムをリリースしません。  </li><li>3つのサービス更新より古いバージョンで発生した問題の調査とトラブルシューティングを行いません。  </li><li>以下のLCS機能が使用不可となる可能性がございます。  <ul><li>メンテナンス モードの有効化  </li><li>環境または環境間でデータベースを移動するために提供されるすべての機能を使用する  </li><li>SQL Server データベースへのファイアウォール アクセスの有効化  </li><li>RSAT 証明書のダウンロード  </li><li>RSAT 証明書を再生成する  </li></ul></li></ol><p>(参考URL)<br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-does-end-of-service-mean">サービスの終了にはどのような意味がありますか?</a><br><a href="https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-happens-to-an-environment-that-is-running-a-finance-and-operations-version-that-is-no-longer-supported">サポートされなくなった Finance and Operations バージョンを実行している環境はどうなりますか？</a>  </p><h1 id="おわりに"><a href="#おわりに" class="headerlink" title="おわりに"></a>おわりに</h1><p>より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。  </p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;こんにちは、Dynamics ERP サポートチームの今岡です。&lt;br&gt;この記事では、Dynamics 365 Finance and Operations (D365FO) のアップデートに関する注意事項を紹介します。  &lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="Information" scheme="https://jpdynamicserp.github.io/blog/tags/Information/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Japan Dynamics ERP Support Blog 開設のお知らせ</title>
     <link href="https://jpdynamicserp.github.io/blog/information/infomation/"/>
     <id>https://jpdynamicserp.github.io/blog/information/infomation/</id>
     <published>2021-02-07T15:00:00.000Z</published>
-    <updated>2022-03-07T14:28:45.548Z</updated>
+    <updated>2022-03-07T14:29:41.304Z</updated>
     
     <content type="html"><![CDATA[<p>こんにちは、日本マイクロソフト Dynamics ERP サポート チームです。</p><p>この度、GitHub Blog にてサポートブログを開設いたしました！<br>本ブログでは、日本マイクロソフト Dynamics ERP サポート チームに所属する社員より、皆様のお役に立てる情報の発信に努めてまいりますので、ぜひご参照いただけますと幸いです。</p><span id="more"></span><p>なお、これまで Microsoft Forum に掲載していた記事は、随時本 GitHub Blog の Archive に移行を進めてまいります。<br>※ForumのJapan Dynamics ERP support Blogは以下になります。<br><a href="https://social.msdn.microsoft.com/Forums/ja-jp/home?forum=DERPSupport">https://social.msdn.microsoft.com/Forums/ja-jp/home?forum=DERPSupport</a><br>製品の特性上、情報が古くなってしまった記事につきましては移行しない場合がございますため、あらかじめご了承ください。</p><p>本 Blog が、皆様のお役にたてれば幸いです。<br>今後ともよろしくお願いたします。</p><!-- 区切り線 --><hr>]]></content>
     
