@@ -1,6 +1,6 @@
 ---
 title: D365FOで使用する言語を一時的に変更する方法
-date: 2021-03-03
+date: 2021-03-07
 tags:
   - D365FO
   - tips
@@ -11,7 +11,7 @@ disableDisclaimer: false
 こんにちは、日本マイクロソフトの永吉です。
 
 この記事では、Dynamics 365 Finance and Operationsにて、ユーザオプションの設定を変更せずに表示言語を変更する方法を紹介します。
-
+<!-- more -->
 # 手順
 1. 環境のURLの最後に `&lng=表示したい言語` を追記する<br>
 ` (例) https://...operations.dynamics.com/?cmp=USMF&lng=ja`
