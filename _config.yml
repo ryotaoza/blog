@@ -23,12 +23,12 @@ author: Dynamics ERP Support Japan
 # Tag (hexo helper)
 root_tag_generator:
   root_tag_names:
-  - Dynamics
-  - Dynamics 365 for Finance and Operations
-  - Dynamics 365 Finance&Operations
-  - Dynamics 365F&O
-  - Dynamics 365fo
-  - Dynamics ERP
+  - D365FO Tech
+  - D365FO App
+  - D365BC Tech
+  - D365BC App
+  - D365 Commerce Tech 
+  - D365 Commerce App
   - 情報採取
   sub_tag_limit: 20
   sub_tag_sort: 'name'
