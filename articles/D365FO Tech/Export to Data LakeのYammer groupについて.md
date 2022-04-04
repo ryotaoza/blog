@@ -27,7 +27,7 @@ https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_grou
 3. [PRIVATE: Project Como]のJoin Groupをクリックし、Pendingステータスになることを確認します。
 <!-- 画像 (リポジトリ内ファイルを参照 -->
 ![](./Export to Data LakeのYammer groupについて/ExportToDataLake3.png)
-Joinのリクエストを申請後に承認がされ、Project Comoグループでの質問や回答が見れるようになります。
+Joinのリクエストを申請後に承認がされ、Project Comoグループでの質問や回答が見られるようになります。
 
 尚、Project Comoグループでのご質問は、questionタブをクリック頂き、Export to Data Lake機能のPMとsolution archiectを以下のようにメンションして頂き、ご質問頂けますと幸いでございます。
 <!-- 画像 (リポジトリ内ファイルを参照 -->
