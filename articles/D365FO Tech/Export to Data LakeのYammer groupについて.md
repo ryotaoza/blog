@@ -21,7 +21,7 @@ Export to Data Lake機能の仕様、動作に関するご質問につきまし�
 
 1. 以下URLを開きます。
 https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=32768909312&view=all
-2. [Finance and Operations Insider Program]に参加していない場合は、以下入力欄にemailアドレスを入力し、Sign Upをクリックします。参加している場合は、[Log In]をクリックし、Microsoftアカウントにサインインします。
+2. [Finance and Operations Insider Program]に参加していない場合は、以下入力欄にemailアドレスを入力し、Sign Upをクリックします。参加している場合は、[Log In]をクリックし、Microsoftアカウントでサインインします。
 <!-- 画像 (リポジトリ内ファイルを参照 -->
 ![](./Export to Data LakeのYammer groupについて/ExportToDataLake1.png)
 3. [PRIVATE: Project Como]のJoin Groupをクリックし、Pendingステータスになることを確認します。
