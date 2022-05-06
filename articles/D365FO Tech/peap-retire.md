@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Finance and Operations のPEAPの変更点について
-date: 2022-04-20
+date: 2022-05-06
 tags:
   - D365FO
   - tips
