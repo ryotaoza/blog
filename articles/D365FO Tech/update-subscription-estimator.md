@@ -23,6 +23,8 @@ disableDisclaimer: false
 サブスクリプション試算(Subscription estimator)のご利用手順につきましては以下の弊社公開資料をご確認頂きますようお願い致します。
 https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/subscription-estimator
 
+スペックの変化の有無はサブスクリプション見積もりの結果によるものとなっており、スペックの変化が起こる場合には、環境の再起動が必要になりますので、パッケージを環境に適用頂くか、再起動依頼のお問合せを弊社までご起票頂けますと幸いです。
+※尚、環境の詳細なスペックの情報につきましては、非公開情報となっておりますので、具体的にどの程度スペックが向上したのか、弊社から回答は致しかねます。
 
 ---
 ## おわりに  
