@@ -3,8 +3,7 @@ title: 固定資産の帳簿に減価償却プロファイルを表示する方�
 date: 2022-5-24
 tags: 
     - D365FO
-    - Purchase order
-    - Procurement and sourcing parameters
+    - Fixed assets
     
 disableDisclaimer: false
 ---
