@@ -45,6 +45,7 @@ disableDisclaimer: false
 
 ８．最新のライセンスガイドにてProduction supervisorが必要なロールを確認します。SCMロールが必要です。
 ※ライセンスガイドにつきましては、以下のリンクからダウンロード頂けます。
+
 https://go.microsoft.com/fwlink/p/?LinkId=866544
 ![](./How-to-check-necessary-role-and-license/6.png)
 
