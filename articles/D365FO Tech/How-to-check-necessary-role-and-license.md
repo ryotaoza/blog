@@ -43,7 +43,7 @@ disableDisclaimer: false
 ７．必要なロール、Duty、Privilegeを確認します。
 ![](./How-to-check-necessary-role-and-license/5.png)
 
-８．最新のライセンスガイドにてProduction supervisorが必要なロールを確認します。SCMロールが必要です。
+８．最新のライセンスガイドにてProduction supervisorが必要なロールを確認します。SCMライセンスが必要です。
 ※ライセンスガイドにつきましては、以下のリンクからダウンロード頂けます。
 
 https://go.microsoft.com/fwlink/p/?LinkId=866544
