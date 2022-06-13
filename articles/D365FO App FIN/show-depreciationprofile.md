@@ -1,6 +1,6 @@
 ---
 title: 固定資産の帳簿に減価償却プロファイルを表示する方法
-date: 2022-5-24
+date: 2022-06-14
 tags: 
     - D365FO
     - Fixed assets
