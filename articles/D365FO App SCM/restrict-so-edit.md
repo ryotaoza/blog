@@ -1,6 +1,6 @@
 ---
 title: 請求後の販売注文の編集制御方法
-date: 2022-5-24
+date: 2022-06-14
 tags: 
     - D365FO
     - Sales order
