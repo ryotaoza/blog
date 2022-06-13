@@ -1,6 +1,6 @@
 ---
 title: 特定操作における必要なロールとライセンスをVisual Studioにて確認する方法
-date: 2022-06-08
+date: 2022-06-13
 tags:
   - D365FO
   - Visual Studio
