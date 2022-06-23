@@ -52,7 +52,5 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-se
   
 ---
 ## おわりに  
-より詳細な情報が必要な場合、Microsoftの担当者にご連絡いただくか、その旨をサポートリクエストにてお問い合わせください。  
-  
 上記の手順、手順内の画像については本記事の執筆時のものです。  
 実際の画面とは挙動に違いがある可能性がございます。
