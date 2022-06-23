@@ -52,5 +52,3 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-se
   
 ---
 ## おわりに  
-上記の手順、手順内の画像については本記事の執筆時のものです。  
-実際の画面とは挙動に違いがある可能性がございます。
