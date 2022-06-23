@@ -34,8 +34,8 @@ disableDisclaimer: false
     ![](./submit-an-incident-in-lcs/step6.png)
 
 7.  「サポートプラン情報」画面が表示されるので、サポートプランを選択する  
-※ サポート契約を登録していない場合は、サポートプランにて「新しい契約の追加」を選択し、「主要アクセスID」と「契約ID または パスワード」を入力し、保存する。  
-※ 主要アクセスIDおよび契約IDを持っていない場合、Customer Success Account Manager (CSAM) までご連絡ください。
+※ 主要アクセスIDおよび契約IDを持っていない場合、サポートプランにて ”Dynamics AX - Subscription” を選択いただくことで、サポートサービスを受けることができます。  
+※ ”Dynamics AX - Subscription” を選択した場合、貴社サポート契約に紐づかない形でのサポートリクエストとなり、貴社にて有償サポート契約を持っていた場合でも、その契約に応じたサポートサービスを適切に受けられない可能性がございます。予めご了承ください。
     ![](./submit-an-incident-in-lcs/step7.png)
 
 8.  サポートプランを選択後、追加情報を入力し、「次へ」を選択する  
@@ -52,6 +52,7 @@ https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/lifecycle-se
   
 ---
 ## おわりに  
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。  
+より詳細な情報が必要な場合、Microsoftの担当者にご連絡いただくか、 "Dynamics AX - Subscription" にてその旨をお問い合わせください。  
+  
 上記の手順、手順内の画像については本記事の執筆時のものです。  
 実際の画面とは挙動に違いがある可能性がございます。
