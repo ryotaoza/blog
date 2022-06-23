@@ -1,6 +1,6 @@
 ---
 title: Japan Dynamics ERP Support Blog 開設のお知らせ
-date: 2021-02-08
+date: 2022-02-08
 tags:
   - Information
 
