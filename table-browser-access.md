@@ -1,6 +1,6 @@
 ---
 title: テーブルブラウザへのアクセス方法
-date: 2022-06-29 
+date: 2022-07-01 
 tags:
   - category
   - sub-category
@@ -28,4 +28,6 @@ tags:
 
    ![](./table-browser-access/step2.png)
 
-
+## おわりに
+---
+以上、テーブルブラウザの利用手順についてご紹介いたしました。
