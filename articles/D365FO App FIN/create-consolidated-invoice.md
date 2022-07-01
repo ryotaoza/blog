@@ -1,6 +1,6 @@
 ---
 title: 月次締め請求書の作成手順
-date: 2022-05-27
+date: 2022-07-01
 tags:
   - D365FO
   - Invoice
