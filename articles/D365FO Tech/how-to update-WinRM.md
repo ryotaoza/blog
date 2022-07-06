@@ -74,9 +74,6 @@ WinRM SSL証明書の更新方法
 https://cloudblogs.microsoft.com/dynamics365/it/2018/05/02/how-to-update-the-winrm-ssl-certificate-on-environments-deployed-in-your-subscription/?source=lcs
 
 
-## 注意
-上記の手順、手順内の画像については本記事の執筆時のものです。
-実際の画面とは挙動に違いがある可能性がございます。
 
 ---
 ## おわりに  
