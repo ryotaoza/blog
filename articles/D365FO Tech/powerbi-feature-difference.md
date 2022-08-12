@@ -1,5 +1,5 @@
 ---
-title: Power BI.com integraion と Power BI Embedded の違いについて
+title: Power BI.com integration と Power BI Embedded の違いについて
 date: 2022-07-15
 tags:
   - D365FO
