@@ -15,7 +15,7 @@ disableDisclaimer: false
 <!-- more -->
 
 
-# 検証に用いた製品・バージョン
+# 検証に用いた製品/バージョン
 
 Dynamics 365 Finance and Operations
 Application version: 10.0.29
