@@ -1,6 +1,6 @@
 ---
 title: 償却資産申告書の作成手順
-date: 2022-08-15
+date: 2022-08-25
 tags:
   - D365FO
   - Japan
@@ -11,9 +11,14 @@ disableDisclaimer: false
 ---
 
 こんにちは、Dynamics ERP サポートチームの尾崎です。  
-この記事では、Dynamics 365 Finance and Operations (D365FO) の日本向けローカライゼーション機能である償却資産申告書の作成に必要な設定手順を紹介します。  
-本記事はバージョン10.0.29を使用して作成しております。
+この記事では、Dynamics 365 Finance and Operations (D365FO) の日本向けローカライゼーション機能である償却資産申告書の作成に必要な設定手順を紹介します。
 <!-- more -->
+
+# 検証に用いた製品・バージョン
+
+Dynamics 365 Finance and Operations
+Application version: 10.0.29
+Platform version: PU53
 
 # 機能管理の設定
 
