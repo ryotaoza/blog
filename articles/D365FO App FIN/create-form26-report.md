@@ -14,6 +14,7 @@ disableDisclaimer: false
 この記事では、Dynamics 365 Finance and Operations (D365FO) の日本向けローカライゼーション機能である償却資産申告書の作成に必要な設定手順を紹介します。
 <!-- more -->
 
+
 # 検証に用いた製品・バージョン
 
 Dynamics 365 Finance and Operations
