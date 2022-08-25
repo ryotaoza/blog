@@ -12,7 +12,9 @@ disableDisclaimer: false
 こんにちは、Dynamics ERP サポートチームの尾崎です。  
 この記事では、Dynamics 365 Finance and Operations (D365FO) の日本向けローカライゼーション機能である固定資産別表16シリーズの作成に必要な設定手順を紹介します。  
 <!-- more -->
+
 # 検証に用いた製品・バージョン
+
 Dynamics 365 Finance and Operations
 Application version: 10.0.27
 Platform version: PU51
