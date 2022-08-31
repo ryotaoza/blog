@@ -47,10 +47,6 @@ Model1を使用して、プロジェクトを作成し、プロジェクト内�
 ```javascript
 class RunnableClass1
 {
-    /// <summary>
-    /// Runs the class with the specified arguments.
-    /// </summary>
-    /// <param name = "_args">The specified arguments.</param>
     public static void main(Args _args)
     {
         Info("Hello World!_Motoki");
