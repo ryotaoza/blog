@@ -3,7 +3,7 @@ title: Azure PipelinesとMicrosoft-hosted agentsを使用したビルドの手�
 date: 2022-08-31
 tags:
   - D365FO
-  - Azure Pipeline
+  - Azure Pipelines
   - Microsoft-hosted agents
   - Azure DevOps
 
@@ -12,23 +12,23 @@ disableDisclaimer: false
 
 こんにちは、日本マイクロソフトの佐藤です。
 
-この記事では、Azure PipelinesとMicrosoft-hosted agentsを使用したビルドの手順をまとめます。AzureDevOpsとVMのリモートデスクトップ画面から、この手順を行うことを推奨いたします。
+この記事では、Azure PipelinesとMicrosoft-hosted agentsを使用したビルドの手順をまとめます。Azure DevOpsとVMのリモートデスクトップ画面から、この手順を行うことを推奨いたします。
 
 <!-- more -->
 
 本記事は下記の5つの項目から構成されています。
 
-[ステップ1:AzureDevOpsでプロジェクトの作成](#ステップ1:AzureDevOpsでプロジェクトの作成)
+Step1: [Azure DevOpsでプロジェクトの作成](#AzureDevOpsでプロジェクトの作成)
 
-[ステップ2:AzureDevOpsのFeedの作成](#ステップ2:AzureDevOpsのFeedの作成)
+Step2: [Azure DevOpsのFeedの作成](#AzureDevOpsのFeedの作成)
 
-[ステップ3:AzurePipelineの設定](#ステップ3:AzurePipelineの設定)
+Step3: [Azure Pipelinesの設定](#AzurePipelinesの設定)
 
-[ステップ4:ReleasePipelineで自動アップロード・資産のデプロイを設定](#ステップ4:ReleasePipelineで自動アップロード・資産のデプロイを設定)
+Step4: [Release Pipelineで自動アップロード・資産のデプロイを設定](#ReleasePipelineで自動アップロード・資産のデプロイを設定)
 
-[ReleasePipelineで起こる可能性のあるエラー](#ReleasePipelineで起こる可能性のあるエラー)
+[Release Pipelineで起こる可能性のあるエラー](#ReleasePipelineで起こる可能性のあるエラー)
 
-## ステップ1:AzureDevOpsでプロジェクトの作成
+## AzureDevOpsでプロジェクトの作成
 1. Organizationを作成します。
 2. New Projectからプロジェクトを作成します。
     <img src="./CreateProject1.png" style="border: 1px black solid;">
@@ -59,7 +59,7 @@ class RunnableClass1
 作成したクラスはTeam ExplorerからAzure DevOpsに接続します。
     <img src="./CreateProject6.png" style="border: 1px black solid;">
 
-Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させます。
+Source Control ExplorerからWorkspaceを作成し、Azure DevOpsと連携させます。
 この場合下記のようにWorkspaceが作成できれば大丈夫です。
     <img src="./CreateProject7.png" style="border: 1px black solid;">
 
@@ -69,9 +69,9 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
 
 [Azure DevOpsでのプロジェクト作成](https://docs.microsoft.com/ja-jp/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser)
 
-[Visual Studio をコンフィギュレーションしてチーム プロジェクトに接続する](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#map-your-azure-devops-project-to-your-local-model-store-and-projects-folder)
+[Visual Studio をコンフィギュレーションしてチーム プロジェクトに接続する](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#configure-visual-studio-to-connect-to-your-team-project)
 
-## ステップ2:AzureDevOpsのFeedの作成
+## AzureDevOpsのFeedの作成
 
 以下の手順は、下記のdocsに記載されている手順となっております。
 
@@ -143,11 +143,11 @@ Source Control ExplorerからWorkspaceを作成し、AzureDevOpsと連携させ�
 ```
 
 UserNameとパスワードを求められます
-* UserNameはAzureDevOpsのサインインアカウント
+* UserNameはAzure DevOpsのサインインアカウント
 * PasswordはPersonal Access Tokenで作成
     <img src="./CreateFeed13.png" style="border: 1px black solid;">
 
-## ステップ3:AzurePipelineの設定
+## AzurePipelinesの設定
 1. 	下記から、定義済みのパイプラインのダウンロードを行います（xpp-classic-ci.json）
 https://github.com/microsoft/Dynamics365-Xpp-Samples-Tools/tree/master/CI-CD/Pipeline-Samples
     <img src="./CreatePipe1.png" style="border: 1px black solid;">
@@ -213,7 +213,7 @@ MSBuild Argumentsには下記を入力します
 
     <img src="./CreatePipe15.png" style="border: 1px black solid;">
 
-## ステップ4:ReleasePipelineで自動アップロード・資産のデプロイを設定
+## ReleasePipelineで自動アップロード・資産のデプロイを設定
 
 2022/08/29の時点で、LCS 認証には、多要素認証(MFA) が有効になっていない AAD アカウントが必要です。現在、LCSの新しい認証機能として、サービス間認証などのオプションを検討中です。また以下の手順は、下記のdocsに記載されている手順となっております。
 
