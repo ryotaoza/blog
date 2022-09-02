@@ -9,7 +9,6 @@ disableDisclaimer: false
 ---
 
 こんにちは、日本マイクロソフトの細野です。
-
 この記事では、Dynamics 365 Finance and Operationsにて、ダウンタイムなしでカスタム X++ スクリプトを実行する方法を紹介します。
 
 <!-- more -->
@@ -56,7 +55,7 @@ Platform version: PU52
                 where inventTrans.RecId == 68719841375;
 
             inventTrans.Qty = -10;
-            inventTrans.doUpdate();
+            inventTrans.Update();
 
             ttscommit;
 
