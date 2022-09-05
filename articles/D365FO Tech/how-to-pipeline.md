@@ -12,7 +12,10 @@ disableDisclaimer: false
 
 こんにちは、日本マイクロソフトの佐藤です。
 
-この記事では、Azure PipelinesとMicrosoft-hosted agentsを使用したビルドの手順をまとめます。Azure DevOpsとVMのリモートデスクトップ画面から、この手順を行うことを推奨いたします。
+この記事では、Azure PipelinesとMicrosoft-hosted agentsを使用したDynamcis 365 for Finance and Operations (D365FO) のカスタムコードのビルド自動化の手順をご案内します。
+この手順により、開発環境のVisual Studioで開発したコードをAzureDevOps上にアップロードした際に、X++コードのビルド及びパッケージの作成を行い、そのパッケージをLCS上の資産ライブラリに保存し、パッケージを実際の環境に適用するまでの一連の処理をAzure Pipelinesを用いてAzure 上で自動で行うことができます。
+
+公開資料のみでは手順がわかりづらいというお声をいただくことがありますので、本記事がご参考になれば幸いです。
 
 <!-- more -->
 
@@ -28,13 +31,21 @@ Step4: [Release Pipelineで自動アップロード・資産のデプロイを�
 
 [Release Pipelineで起こる可能性のあるエラー](#ReleasePipelineで起こる可能性のあるエラー)
 
+---
+
 ## AzureDevOpsでプロジェクトの作成
+以下の手順は、下記のdocsに記載されている内容を参照とした手順となっております。
+
+[Azure DevOpsでのプロジェクト作成](https://docs.microsoft.com/ja-jp/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser)
+
+[バージョン コントロール、メタデータ検索、およびナビゲーション](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation)
+
 1. Organizationを作成します。
 2. New Projectからプロジェクトを作成します。
     <img src="./CreateProject1.png" style="border: 1px black solid;">
     
 3. [Repos]で下記のようにフォルダ構成を作成します。
-[Trunk] > [Main] > [Metadata]との構成ができていれば大丈夫です。
+本記事では[Trunk] > [Main] > [Metadata]のような構成とします。
     <img src="./CreateProject2.png" style="border: 1px black solid;">
 
 4. Visual Studioを開き、Team ExplorerからDevOpsとVMのプロジェクトとソリューション、モデルを同期します。
@@ -60,16 +71,11 @@ class RunnableClass1
     <img src="./CreateProject6.png" style="border: 1px black solid;">
 
 Source Control ExplorerからWorkspaceを作成し、Azure DevOpsと連携させます。
-この場合下記のようにWorkspaceが作成できれば大丈夫です。
+本記事では下記のようにWorkspaceを作成します。
     <img src="./CreateProject7.png" style="border: 1px black solid;">
 
-5. DevOpsの画面に戻り、[Repos]の形としてはこのように配置されていれば大丈夫です。Nuget.configとpackages.configについては後ほど説明いたします。
-
-またプロジェクトの作成とWorkspaceのマッピングに関する詳細は下記の公開資料をご参照ください。
-
-[Azure DevOpsでのプロジェクト作成](https://docs.microsoft.com/ja-jp/azure/devops/organizations/projects/create-project?view=azure-devops&tabs=browser)
-
-[Visual Studio をコンフィギュレーションしてチーム プロジェクトに接続する](https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/dev-tools/version-control-metadata-navigation#configure-visual-studio-to-connect-to-your-team-project)
+5. DevOpsの画面に戻り、[Repos]の構成を確認すると、下記ように配置されています。Nuget.configとpackages.configについては後ほど説明いたします。
+    <img src="./CreateProject8.png" style="border: 1px black solid;">
 
 ## AzureDevOpsのFeedの作成
 
@@ -104,9 +110,10 @@ Source Control ExplorerからWorkspaceを作成し、Azure DevOpsと連携させ
     
 4. VMフォルダ（Nugets）に下記のリンクからnuget.exeをダウンロードします。
     https://www.nuget.org/downloads
+
     <img src="./CreateFeed6.png" style="border: 1px black solid;">
 
-5. 	下記のgithubからinstallcredprovider.ps1を作成し、ローカルのPowershellで実行します。スクリプトが資格情報を要求し続けて失敗する場合は、パラメーターとして -AddNetfx を追加してみてください。
+5. 下記のgithubからinstallcredprovider.ps1を作成し、ローカルのPowershellで実行します。スクリプトが資格情報を要求し続けて失敗する場合は、パラメーターとして -AddNetfx を追加してみてください。
 
 	https://github.com/Microsoft/artifacts-credprovider/blob/master/helpers/installcredprovider.ps1
 
@@ -161,7 +168,7 @@ https://github.com/microsoft/Dynamics365-Xpp-Samples-Tools/tree/master/CI-CD/Pip
 4. Pipelineは下記のようになります。
     <img src="./CreatePipe4-0.png" style="border: 1px black solid;">
 
-タスクIDの不一致により、テンプレート内の古いタスクが認識されないと思われます。そのため、古いタスクを削除し、同じ新しいタスクを1つ追加してください。以下のスクリーンショットが今回作成するパイプラインになります。
+スクリーンショットの赤文字は、タスクIDの不一致により、テンプレート内の古いタスクが認識されていないことを示します。そのため、古いタスクを削除し、同じ新しいタスクを1つ追加してください。以下のスクリーンショットが今回作成するパイプラインになります。
     <img src="./CreatePipe4.png" style="border: 1px black solid;">
 
 該当のタスクが見つからない場合、下記のDynamics 365 Finance and Operations Toolsのインストールを確認してください。
@@ -290,6 +297,18 @@ LCS Project IDは、デプロイ対象の環境をブラウザで開いた際の
 4. Artifactの右上のマークから[Continuous deployment trigger]を[Enabled]に設定して、[Create release]をすると、Pipelineのビルドが終わったときに自動的にリリースパイプラインが実行されます。
 
     <img src="./CreateDeploy12.png" style="border: 1px black solid;">
+
+5. リリースパイプラインが成功したら、[Releases]から今回実行したパイプラインを選択すると、下記のようなSucceededの表記が確認されます。
+
+    <img src="./CreateDeploy12-1.png" style="border: 1px black solid;">
+
+6. 今回の場合、対象の環境にてURLの.dynamics.comの後ろに下記を張り付けると、メッセージが表示され、開発したコードの内容が反映されていることが分かります。
+
+```javascript
+/?cmp=DAT&mi=SysClassRunner&cls=RunnableClass1
+```
+
+ <img src="./CreateDeploy12-2.png" style="border: 1px black solid;">
 
 ## ReleasePipelineで起こる可能性のあるエラー
 * 環境の不一致では下記のエラーが確認されます
