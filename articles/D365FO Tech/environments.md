@@ -1,6 +1,6 @@
 ---
 title: Dynamics 365 for Finance and Operations の環境ごとの違い
-date: 2022-09-05
+date: 2022-09-06
 tags:
   - D365FO
   - tips
@@ -30,7 +30,7 @@ disableDisclaimer: false
 (*1): 本番環境、サンドボックス環境は、Microsoft内のAzure Subscriptionに紐づいて管理されているので、顧客はAzure portalにて環境の情報を見ることができません。クラウドホスト環境は顧客のAzure Subscirption内で構築されますので、Azure portalにて環境や請求の情報を見ることができます。
 (*2): https://jpdynamicserp.github.io/blog/D365FO%20Tech/database-just-in-time-jit-access/ の手順となります。
 
-(*): 本記事は2022年9月1日の情報です。
+(*): 本記事は2022年9月6日時点での情報です。
 
 
 ---
