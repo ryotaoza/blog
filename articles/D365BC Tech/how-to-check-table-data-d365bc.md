@@ -17,10 +17,10 @@ Dynamics 365 Business Central
 Version: W1 20.4  
 
 ## 手順
-1. D365BCにブラウザでアクセスする
+1. D365BC にブラウザでアクセスする
     ![](./how-to-check-table-data-d365bc/step1.png)
 
-2. URLを以下のとおり変更する  
+2. URL を以下のとおり変更する  
     ``` https://<environmentURL>/?company=<ComapanyName>&table=<tableID> ```  
     以下例  
     ![](./how-to-check-table-data-d365bc/step2.png)
