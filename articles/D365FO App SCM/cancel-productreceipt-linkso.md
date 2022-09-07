@@ -1,6 +1,6 @@
 ---
 title: 販売注文に紐づく発注書の製品受領書のキャンセル方法
-date: 2022-9-05
+date: 2022-09-07
 tags: 
     - D365FO
     - Sales order
@@ -27,16 +27,16 @@ Platform version: PU49
 > 日本語：品目1000の在庫から0.00しか利用できないため、1.00をピッキングできません。
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_1.png)
 
-1. 紐づく販売注文画面のInventory > Maintain > Resrvationを押下する
+1. 紐づく販売注文画面の Inventory > Maintain > Resrvation を押下する
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_2.png)
 
-1. Reservation fieldを１から０に変更（引当数量をなくす）
+1. Reservation field を 1 から 0 に変更（引当数量をなくす）
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_3.png)  
 ※変更後
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_4.png)
 
 1. 再度、発注書を開く
-1. Receive > Journals > Product receiptを開く
+1. Receive > Journals > Product receipt を開く
 1. 製品受領書のキャンセルを実施
 ![](./cancel-productreceipt-linkso/cancel-productreceipt-linkso_5.png) 
 
