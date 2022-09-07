@@ -19,12 +19,12 @@ Platform version: PU52
 
 ## はじめに
 開発環境や本番環境など、環境ごとに参照権限・編集可否が異なります。  
-本ブログではUserIDがAdminであることを前提に方法を紹介します。
+本ブログでは UserID が Admin であることを前提に方法を紹介します。
 
 ## 手順
-1. D365FOにブラウザでアクセスする
+1. D365FO にブラウザでアクセスする
     ![](./how-to-use-tablebrowser-d365fo/step1.png)
-2. URLを以下のとおり変更する  
+2. URL を以下のとおり変更する  
     ``` https://<environmentURL>/?mi=SysTableBrowser&cmp=<CompanyName>&tablename=<tablename> ```  
     以下例  
     ![](./how-to-use-tablebrowser-d365fo/step2.png)
