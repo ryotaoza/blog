@@ -33,7 +33,7 @@ Platform version: PU52
 1. 追加したAdd-inを起動し、テンプレートデザイナーの「フィールドの追加」を選択します。
     ![](./how-to-set-related-tables-for-office-addin-using-word/step1.png)
 
-2. エンティティ データ ソースの選択で「販売注文ヘッダー V2」を選択し、「次へ」をクリックします。
+2. 「エンティティ データソースの選択」で「販売注文ヘッダー V2」を選択し、「次へ」をクリックします。
     ![](./how-to-set-related-tables-for-office-addin-using-word/step2.png)
 
 3. 用意した表の各項目に、「使用可能なフィールド」の中から必要なフィールドを選択します。  今回は「販売注文」のラベルと値を追加します。  
