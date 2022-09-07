@@ -1,5 +1,5 @@
 ---
-title: Office統合のWordテンプレートにおける関連テーブルのリレーション設定方法
+title: Office 統合の Word テンプレートにおける関連テーブルのリレーション設定方法
 date: 2022-09-07
 tags:
   - D365FO
@@ -10,19 +10,19 @@ tags:
 disableDisclaimer: false
 ---
 
-こんにちは、日本マイクロソフト Dynamics ERPサポートチームの道浦です。  
-この記事では、Dynamics 365 Finance and Operationsにて、Office統合のWordテンプレートを用いる際に関連テーブルのリレーション設定で必要な手順を紹介します。
+こんにちは、日本マイクロソフト Dynamics ERP サポートチームの道浦です。  
+この記事では、 Dynamics 365 Finance and Operations にて、 Office 統合の Word テンプレートを用いる際に関連テーブルのリレーション設定で必要な手順を紹介します。
 
 <!-- more -->
 ## 検証に用いた製品・バージョン
-Dynamics 365 Finance and Operations    
-Application version: 10.0.28  
-Platform version: PU52
+Dynamics 365 Finance and Operations      
+Application version: 10.0.28    
+Platform version: PU52  
 
 ## 事前準備
-1. Wordファイルを新規作成する
+1. Word ファイルを新規作成する
 2. 事前に使用するテンプレート (表など) を作成する
-3. 作成したテンプレートに「Microsoft Dynamics Office Add-in」を追加する
+3. 作成したテンプレートに 「Microsoft Dynamics Office Add-in」 を追加する
 
 
 ## 関連テーブルのリレーション設定の手順
@@ -58,12 +58,12 @@ Platform version: PU52
 
 
 ## 参考
-作成したテンプレートをDynamics 365 Finance and Operationsにアップロードする方法は、公式documentにて公開されています。  
+作成したテンプレートを Dynamics 365 Finance and Operations にアップロードする方法は、公式ドキュメントにて公開されています。  
 下記のリンクをご参照ください。  
 https://docs.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/office-integration/office-integration-tutorial?context=%2Fdynamics365%2Fcontext%2Fcommerce
 
 ---
 ## おわりに  
 
-以上、Office統合のWordテンプレートを用いる際に関連テーブルのリレーション設定で必要な手順についてご紹介しました。
-より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
+以上、 Office 統合の Word テンプレートを用いる際に関連テーブルのリレーション設定で必要な手順についてご紹介しました。
+より詳細な情報が必要な場合、弊社テクニカルサポート, Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
