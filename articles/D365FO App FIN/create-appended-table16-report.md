@@ -14,8 +14,8 @@ disableDisclaimer: false
 <!-- more -->
 ## 検証に用いた製品・バージョン:
 Dynamics 365 Finance and Operations  
-Application version: 10.0.25  
-Platform version: PU49 
+Application version: 10.0.27  
+Platform version: PU51 
 
 # 減価償却決済ルールの設定
 
@@ -63,7 +63,7 @@ Platform version: PU49
 
 # 別表 16 の出力
 
-決済完了後、別表16を出力します。別表16-1レポートの出力例は以下のようになります。
+決済完了後、別表 16 を出力します。別表 16-1 レポートの出力例は以下のようになります。
 1. 固定資産＞照会およびレポート＞法人税別表 16 シリーズ＞別表 1 レポートを起動
 2. パラメーターとレコードを選択して実行
 
