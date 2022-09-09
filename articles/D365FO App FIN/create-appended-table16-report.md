@@ -1,6 +1,6 @@
 ---
 title: 固定資産別表16シリーズの作成手順
-date: 2022-08-05
+date: 2022-09-09
 tags:
   - D365FO
   - Japan
@@ -10,14 +10,18 @@ disableDisclaimer: false
 ---
 
 こんにちは、Dynamics ERP サポートチームの尾崎です。  
-この記事では、Dynamics 365 Finance and Operations (D365FO) の日本向けローカライゼーション機能である固定資産別表16シリーズの作成に必要な設定手順を紹介します。  
+この記事では、Dynamics 365 Finance and Operations (D365FO) の日本向けローカライゼーション機能である固定資産別表 16 シリーズの作成に必要な設定手順を紹介します。  
 <!-- more -->
+## 検証に用いた製品・バージョン:
+Dynamics 365 Finance and Operations  
+Application version: 10.0.25  
+Platform version: PU49 
 
 # 減価償却決済ルールの設定
 
 会計帳簿と税務上想定される金額の間で減価償却額に差額が発生した場合の取り扱いを規定します。手順は以下のようになります。
 1. 固定資産＞設定＞減価償却決済ルールを開く
-2. 初回起動時には"既定のルールをインポートしますか？"というメッセージが表示されるのでOKを選択
+2. 初回起動時には"既定のルールをインポートしますか？"というメッセージが表示されるので OK を選択
 3. インポートに成功すると設定画面に表示
 
 ![](./create-appended-table16-report/CreateAppendedTable16Report1.png)
@@ -57,10 +61,10 @@ disableDisclaimer: false
 
 ![](./create-appended-table16-report/CreateAppendedTable16Report4.png)
 
-# 別表16の出力
+# 別表 16 の出力
 
 決済完了後、別表16を出力します。別表16-1レポートの出力例は以下のようになります。
-1. 固定資産＞照会およびレポート＞法人税別表16シリーズ＞別表1レポートを起動
+1. 固定資産＞照会およびレポート＞法人税別表 16 シリーズ＞別表 1 レポートを起動
 2. パラメーターとレコードを選択して実行
 
 (参考URL)  
@@ -71,6 +75,5 @@ disableDisclaimer: false
 
 
 # おわりに  
-以上、固定資産別表16シリーズの事前設定と出力の手順についてご紹介しました。
+以上、固定資産別表 16 シリーズの事前設定と出力の手順についてご紹介しました。
 より詳細な情報が必要な場合、弊社テクニカルサポート、Customer Success Account Manager (CSAM), Customer Engineer (CE) までお問い合わせください。
-本記事はバージョン10.0.27を使用して作成しております。
