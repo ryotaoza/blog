@@ -1,7 +1,7 @@
 ---
 title: 販売注文作成の一連の流れ
 
-date: 2022-09-21
+date: 2022-09-22
 tags:
   - D365FO
   - sales order
