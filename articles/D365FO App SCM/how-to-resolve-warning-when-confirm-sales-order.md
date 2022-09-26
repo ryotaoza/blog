@@ -33,7 +33,6 @@ Platform version: PU53
 また1つの回避策として一時的な与信限度額の制限を解放する方法でも対応可能となります。
 
 
-
 以下の手順では、一時的な与信限度額の制限を解放する方法を記載いたします。
 
 
@@ -41,7 +40,7 @@ Platform version: PU53
    ![](./how-to-resolve-warning-when-confirm-sales-order/step1.png)
 
 2. 対象のラインを選択し、リリースをクリックする  
-クリック後に開かれるダイアログの「リリースの理由」で該当するものを選択し、「リリース」をクリックする
+    クリック後に開かれるダイアログの「リリースの理由」で該当するものを選択し、「リリース」をクリックする
    ![](./how-to-resolve-warning-when-confirm-sales-order/step2.png)
 
 
@@ -52,9 +51,8 @@ Platform version: PU53
    ![](./how-to-resolve-warning-when-confirm-sales-order/step4.png)
 
 ## 参考
-手順4以降の処理につきましては、下記の「販売注文作成の一連の流れ」の記事に記載しておりますので、ご参照ください。
+手順4以降の処理につきましては、下記の「販売注文作成の一連の流れ」の記事に記載していますので、ご参照ください。
 https://jpdynamicserp.github.io/blog/D365FO%20App%20SCM/how-to-create-sales-order/#more
-
 
 
 ---
