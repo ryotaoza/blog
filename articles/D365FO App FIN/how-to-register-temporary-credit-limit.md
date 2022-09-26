@@ -75,9 +75,6 @@ Platform version: PU53
     ![](./how-to-register-temporary-credit-limit/warning1.png)
 
 
-
-
-
 ---
 ## おわりに  
 
