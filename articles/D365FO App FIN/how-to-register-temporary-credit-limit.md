@@ -27,7 +27,6 @@ Platform version: PU53
 1. Finance and Operations のホーム画面を起動する
 
 2. 与信および回収 > 与信限度額の調整 > 与信限度額の調整の順にクリックする
-
     ![](./how-to-register-temporary-credit-limit/step2.png)
 
 3. 「+ 新規」をクリックし、与信限度額タイプを「一時的な与信限度額」に設定する
@@ -74,6 +73,8 @@ Platform version: PU53
 当該与信限度額を超える場合、販売注文を確認する際に、以下の通り警告メッセージが表示されます。
     ![](./how-to-register-temporary-credit-limit/warning1.png)
 
+警告の解消方法については下記のリンクをご参照ください。  
+https://jpdynamicserp.github.io/blog/D365FO%20App%20SCM/how-to-resolve-warning-when-confirm-sales-order/#more
 
 ---
 ## おわりに  
