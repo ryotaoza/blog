@@ -46,8 +46,6 @@ Platform version: PU52
     ![](./how-to-create-sales-order/step5.png) 
     ![](./how-to-create-sales-order/step5-1.png) 
 
-
-<!-- ピッキングリストの転記を追加 -->
 6. ピッキングと梱包 > 生成 > ピッキングリストの生成の順にクリックします。  
 ※ピッキングリストを作成する必要がない場合は、6,7 番の手順はスキップします。
     ![](./how-to-create-sales-order/step6.png) 
@@ -60,7 +58,7 @@ Platform version: PU52
     ![](./how-to-create-sales-order/step8.png) 
 
 
-9. 「パラメーター」の数量のところ 6 番の手順を行った方は「ピッキング済み」、6 番の手順をスキップした方は「すべて」に変更する。  
+9. 「パラメーター」の数量のところ 6,7 番の手順を行った方は「ピッキング済み」、6,7 番の手順をスキップした方は「すべて」に変更します。  
 
     < ピッキングリスト作成された方 >  
     ![](./how-to-create-sales-order/step9-1.png)   
@@ -68,7 +66,6 @@ Platform version: PU52
     ![](./how-to-create-sales-order/step9-2.png) 
 
 
-    <!-- ピッキングリストの転記を追加した人は「ピッキング済みのまま」 -->
 
 10. 請求書 > 生成 > 請求書の順にクリックします。
     ![](./how-to-create-sales-order/step10.png)
@@ -76,6 +73,9 @@ Platform version: PU52
 11. 請求の転記する内容を確認して、「 OK 」をクリックします。
     ![](./how-to-create-sales-order/step11.png)
 
+12. 画面遷移後、画面右上のところに「請求済」が表示されます。  
+    表示されれば販売注文が無事に作成されたことになります。
+     ![](./how-to-create-sales-order/step12.png)   
 
 ---
 ## おわりに  
