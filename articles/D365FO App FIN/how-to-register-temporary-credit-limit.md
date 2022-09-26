@@ -1,6 +1,6 @@
 ---
 title: 顧客の一時的な与信限度額の登録方法
-date: 2022-09-22
+date: 2022-09-2
 tags:
   - D365FO
   - credit limit
