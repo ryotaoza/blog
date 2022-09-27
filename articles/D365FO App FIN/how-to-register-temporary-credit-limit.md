@@ -77,6 +77,7 @@ Platform version: PU53
 警告の解消方法については下記のリンクをご参照ください。  
 https://jpdynamicserp.github.io/blog/D365FO%20App%20SCM/how-to-resolve-warning-when-confirm-sales-order/#more
 
+
 ---
 ## おわりに  
 
