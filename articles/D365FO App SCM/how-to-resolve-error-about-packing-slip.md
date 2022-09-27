@@ -5,7 +5,6 @@ tags:
   - D365FO
   - tips
   - packing slip
-  - finance
 
 disableDisclaimer: false
 ---
