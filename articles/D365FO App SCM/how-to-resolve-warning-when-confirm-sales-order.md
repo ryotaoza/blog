@@ -1,10 +1,11 @@
 ---
 title: 販売注文の作成にて「販売注文の確認」を実施した際に生じる警告の解決方法
-date: 2022-0926
+date: 2022-09-27
 tags:
   - D365FO
   - tips
   - SCM
+  - Sales order
 
 disableDisclaimer: false
 ---
@@ -33,13 +34,14 @@ Platform version: PU53
 
 以下の手順では、一時的な与信限度額の制限を解放する方法を記載いたします。
 
+
 ## 一時的な与信限度額の制限を解放する手順について
 
 1. 対象の販売注文を選択し、「与信の管理」タブの「与信管理の保留リスト」を選択する
    ![](./how-to-resolve-warning-when-confirm-sales-order/step1.png)
 
 2. 対象のラインを選択し、リリースをクリックする  
-クリック後に開かれるダイアログの「リリースの理由」で該当するものを選択し、「リリース」をクリックする
+    クリック後に開かれるダイアログの「リリースの理由」で該当するものを選択し、「リリース」をクリックする
    ![](./how-to-resolve-warning-when-confirm-sales-order/step2.png)
 
 
