@@ -1,11 +1,11 @@
 ---
 title: 販売注文にて「梱包明細の転記」を実施した際に生じるエラーの解決方法
-date: 2022-0927
+date: 2022-09-27
 tags:
   - D365FO
   - tips
   - packing slip
-  - finance
+  - SCM
 
 disableDisclaimer: false
 ---
@@ -43,10 +43,8 @@ Platform version: PU53
     ![](./how-to-resolve-error-about-packing-slip/step2-1.png)
     ![](./how-to-resolve-error-about-packing-slip/step2-2.png)
 
-
 3. 画面左の「フィルター」で対象商品を検索し、倉庫に在庫がないことを確認する
     ![](./how-to-resolve-error-about-packing-slip/step3.png)
-
 
 4. 数量調整タブをクリックする
     ![](./how-to-resolve-error-about-packing-slip/step4.png)
