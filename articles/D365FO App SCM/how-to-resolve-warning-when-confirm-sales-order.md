@@ -1,12 +1,11 @@
 ---
 title: 販売注文の作成にて「販売注文の確認」を実施した際に生じる警告の解決方法
-date: 2022-09-26
+date: 2022-09-27
 tags:
   - D365FO
   - tips
-  - finance
   - SCM
-  - troubleshoot
+  - Sales order
 
 disableDisclaimer: false
 ---
@@ -22,7 +21,6 @@ Application version: 10.0.29
 Platform version: PU53  
 
 
-
 ## 警告の内容と原因について
 
 本ブログが対象とする警告内容は下記のものとなります。  
@@ -34,9 +32,10 @@ Platform version: PU53
 解決方法：一時的な与信限度額の金額を変更することで、警告を解消することができます。
 また1つの回避策として一時的な与信限度額の制限を解放する方法でも対応可能となります。
 
-
 以下の手順では、一時的な与信限度額の制限を解放する方法を記載いたします。
 
+
+## 一時的な与信限度額の制限を解放する手順について
 
 1. 対象の販売注文を選択し、「与信の管理」タブの「与信管理の保留リスト」を選択する
    ![](./how-to-resolve-warning-when-confirm-sales-order/step1.png)
@@ -52,9 +51,12 @@ Platform version: PU53
 4. 処理の完了後、元の販売注文画面に戻り、その後の処理を進める
    ![](./how-to-resolve-warning-when-confirm-sales-order/step4.png)
 
+
+
 ## 参考
-手順4以降の処理につきましては、下記の「販売注文作成の一連の流れ」の記事に記載していますので、ご参照ください。
+手順4以降の処理につきましては、下記の「販売注文作成の一連の流れ」の記事に記載しておりますので、ご参照ください。
 https://jpdynamicserp.github.io/blog/D365FO%20App%20SCM/how-to-create-sales-order/#more
+
 
 
 ---
