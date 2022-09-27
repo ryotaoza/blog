@@ -5,11 +5,8 @@ tags:
   - D365FO
   - tips
   - packing slip
-<<<<<<< HEAD
-=======
   - SCM
->>>>>>> e275551407a6fcf006ff7f6f445821210322b684
-
+  
 disableDisclaimer: false
 ---
 
