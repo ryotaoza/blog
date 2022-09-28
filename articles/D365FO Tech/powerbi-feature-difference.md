@@ -14,6 +14,10 @@ Dynamics 365 Finance and Operations (以下D365FO) では、Power BI レポー�
 D365FO のデータを Power BI レポートで表示、参照する機能は、主に2つございますが、この記事ではその2つの違いについてご紹介させていただきます。
 
 <!-- more -->
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.26 
+Platform version: PU50
 
 D365FO のデータを Power BI レポートで表示、参照する機能は、Power BI.com integration と Power BI Embedded の2つがございます。その違いについて以下の表にまとめましたので、ご参考にして頂けますと幸いです。
 
