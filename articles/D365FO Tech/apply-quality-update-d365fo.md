@@ -14,7 +14,10 @@ disableDisclaimer: false
 
 この記事では、Dynamics 365 Finance and Operationsにて、品質更新プログラムを適用する方法を紹介します。
 <!-- more -->
-
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.22
+Platform version: PU46
 
 ## 手順
 1. LCSを開く
