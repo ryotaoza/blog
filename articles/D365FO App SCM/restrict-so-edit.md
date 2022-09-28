@@ -13,6 +13,11 @@ disableDisclaimer: false
 この記事では、請求後の販売注文の編集を制御するパラメータについてご案内いたします。  
 
 <!-- more -->
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.24
+Platform version: PU48
+
 パラメータの適用方法、動作につきましては以下をご覧ください。  
 
 ## 請求後の販売注文の編集制御方法
