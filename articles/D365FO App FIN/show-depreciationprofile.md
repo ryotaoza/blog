@@ -12,6 +12,11 @@ disableDisclaimer: false
 この記事では、固定資産の帳簿に減価償却プロファイルの変更機能を表示する方法についてご案内いたします。  
 
 <!-- more -->
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.24 
+Platform version: PU48
+
 パラメータの適用方法、動作につきましては以下をご覧ください。  
 
 ## 固定資産の帳簿にて減価償却プロファイルの変更を表示する方法
