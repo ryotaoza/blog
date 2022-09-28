@@ -17,6 +17,10 @@ Dynamics 365 for Finance and Operations のクラウドホスト環境でシー�
 WinRM SSL 証明書の有効期限が切れている旨のエラーが出ることがありますので、WinRM SSL 証明書の有効期限をアップデートする方法を紹介します。  
 
 <!-- more -->
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.26
+Platform version: PU50
 
 ## シークレットの入れ替え方法
 プロジェクトオーナーまたは環境管理者は、LCSからシークレットを入れ替えることが可能です。  
