@@ -13,6 +13,11 @@ disableDisclaimer: false
 この記事では、棚卸グループを使用した棚卸の実施方法についてご案内いたします。  
 
 <!-- more -->
+## 検証に用いた製品・バージョン
+Dynamics 365 Finance and Operations      
+Application version: 10.0.25
+Platform version: PU49
+
 棚卸グループを活用することにより、在庫棚卸仕訳帳において複数の品目に対する明細を簡単に作成することができます。
 具体的な操作手順は以下の通りです。  
 
