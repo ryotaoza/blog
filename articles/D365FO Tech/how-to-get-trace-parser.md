@@ -65,7 +65,7 @@ Platform version: PU53
 
 
 ## 参考
-Trace Parserを使用したトレースの実行方法は、公式ドキュメントでも公開されています。  
+Trace Parser を使用したトレースの実行方法は、公式ドキュメントでも公開されています。  
 下記のリンクも併せてご参照ください。  
 https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/perf-test/trace-trace-tutorial
 
