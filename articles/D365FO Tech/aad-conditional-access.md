@@ -55,11 +55,6 @@ https://learn.microsoft.com/ja-jp/power-platform/admin/restrict-access-online-tr
     ![](./aad-conditional-access/image6.png)
 
 
-
-## 注意
-上記の手順、手順内の画像については本記事の執筆時のものです。
-実際の画面とは挙動に違いがある可能性がございます。
-
 ---
 
 ## おわりに  
