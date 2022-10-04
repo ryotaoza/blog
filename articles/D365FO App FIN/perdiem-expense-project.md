@@ -11,6 +11,11 @@ disableDisclaimer: false
 この記事では、ワークスペース「経費管理」から特定のプロジェクトに経費カテゴリ「日当」を紐づける方法ついてご紹介します。  
 <!-- more -->
 
+# 検証に用いた製品・バージョン:
+Dynamics 365 Finance and Operations  
+Application version: 10.0.26  
+Platform version: PU50  
+
 # 手順詳細
 **1. 機能管理にて「経費レポートの再想像 (Expense reports re-imagined) 」「経費精算書の再設計されたインターフェイスの日当 (Per-diem for expense report re-imagined) 」を有効化する**  
     経路 : ワークスペース > 機能管理  
