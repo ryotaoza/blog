@@ -11,7 +11,7 @@ disableDisclaimer: false
 この記事では、ワークスペース「経費管理」から特定のプロジェクトに経費カテゴリ「日当」を紐づける方法ついてご紹介します。  
 <!-- more -->
 
-# 検証に用いた製品・バージョン:
+## 検証に用いた製品・バージョン:
 Dynamics 365 Finance and Operations  
 Application version: 10.0.26  
 Platform version: PU50  
